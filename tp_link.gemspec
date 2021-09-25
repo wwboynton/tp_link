@@ -9,8 +9,8 @@ Gem::Specification.new do |s|
   s.email       = 'tp_link@ruby-code.com'
   s.files = Dir.glob('./lib/**/*.rb')
   # s.executables = ['tplink']
-  s.add_runtime_dependency 'faraday', '~> 0.13', '>= 0.13.1'
-  s.add_runtime_dependency 'faraday_middleware', '~> 0.12', '>= 0.12.2'
+  s.add_runtime_dependency 'faraday', '~> 1', '>= 1'
+  s.add_runtime_dependency 'faraday_middleware', '~> 1', '>= 1'
   s.homepage =
     'https://ruby-code.com/james/tp_link'
   s.license = 'MIT'
